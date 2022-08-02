@@ -12,7 +12,11 @@ function paystack_menu(){
 }
  
 function digi_paystack(){
-    echo "<h1>Hello World!</h1>";
+  <form action="/action_page.php">
+  	<label for="key">SecretKey:</label><br>
+  	<input type="text" id="fname" name="fname" value="John"><br>
+  	<input type="submit" value="Submit">
+</form> 
 }
  
 ?>
